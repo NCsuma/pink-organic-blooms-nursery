@@ -1,0 +1,24 @@
+{% extends 'parent.html' %}
+
+{% block body %}
+<div class="content">
+			<div>
+				<ul class="section">
+					{%- for item in flowersgroup1 %}
+       				<li>
+						<a href="/flowerdetails/{{item.id}}"><img src="{{url_for('static',filename =item.image_name)}}"></a>
+						<h4>{{item.name}}</h4>
+					</li>
+					{% endfor %}
+				</ul>
+				<ul class="section">
+					{%- for item in flowersgroup2 %}
+       				<li>
+						<a href="/flowerdetails/{{item.id}}"><img src="{{url_for('static',filename =item.image_name)}}"></a>
+						<h4>{{item.name}}</h4>
+					</li>
+					{% endfor %}
+				</ul>
+			</div>
+</div>
+{% endblock %}

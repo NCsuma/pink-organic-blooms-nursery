@@ -1,21 +1,10 @@
-<ol>
-    {%- for line in messages %}
-    <li>{{line -}}</li>
-    {% endfor %}
-</ol>
-
-{% extends 'base.html' %}
-
-{% block head %}
-<h1>Template</h1>
-
-{% endblock %}
+{% extends 'parent.html' %}
 
 {% block body %}
-
-<div style="background-color:pink">
-    This is index page
-</div>
-<span style="background-color:red"> Hi, welcome</span>
-<span style="background-color:orange;margin-left:25px">There are fifty words in this sentence</span>
+<h1 style="font-size: 1em">WELCOME TO PINK ORGANIC BLOOMS</h1>
+<p>With our vast experience over 35 years, we are producing, cultivating and marketing different kinds of plants all over the country and we also undertake projects of landscaping.
+	We own thousands of varieties of plants in the plant kingdom. Our plant production and marketing house is situated at Bangalore.</p>
+<p>We provide wide range of natural plants and accessories in Bangalore. We have largest collection of Annual Flowers, Aquatic Plants, Aromatic Plants.</p>
+<img style="float: left ; width: 80%" src="https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__340.jpg" class="figure">
+<img style="float: left ; width: 80%" src="https://cdn.pixabay.com/photo/2015/04/19/08/33/flower-729512__340.jpg" class="figure">
 {% endblock %}
