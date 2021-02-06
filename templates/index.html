@@ -1,0 +1,21 @@
+<ol>
+    {%- for line in messages %}
+    <li>{{line -}}</li>
+    {% endfor %}
+</ol>
+
+{% extends 'base.html' %}
+
+{% block head %}
+<h1>Template</h1>
+
+{% endblock %}
+
+{% block body %}
+
+<div style="background-color:pink">
+    This is index page
+</div>
+<span style="background-color:red"> Hi, welcome</span>
+<span style="background-color:orange;margin-left:25px">There are fifty words in this sentence</span>
+{% endblock %}
