@@ -15,7 +15,6 @@ def show_flower_images():
     item4 = FlowerItem(4,"Marigold", "images/flower4.jpg")
     item5 = FlowerItem(5,"Sun Flower", "images/flower5.jpg")
     item6 = FlowerItem(6,"Orchid", "images/flower7.jpg")
-
     flowersgroup1 = [item1,item2,item3]
     flowersgroup2 = [item4,item5,item6]
     return render_template('flowers.html',flowersgroup1 = flowersgroup1 ,flowersgroup2 = flowersgroup2)

@@ -64,8 +64,7 @@ p a:hover {
 	display: block;
 	font-family: 'nixie_oneregular';
 	font-size: 38px;
-	font-weight: bold;
-	text-transform: uppercase;
+	font-weight: bolder;
 }
 #header ul#navigation {
 	list-style: none;
@@ -80,10 +79,10 @@ p a:hover {
 }
 #header ul#navigation li a {
 	color: #556b2f;
-	font-size: 18px;
+	font-size: 20px;
 	padding: 0 46px;
 	text-align: center;
-	text-decoration: none;
+	text-decoration: underline;
 	text-transform: uppercase;
 }
 #header ul#navigation li a:hover,
@@ -216,11 +215,12 @@ p a:hover {
 	display: block;
 	max-width: 100%;
 	width: auto;
+	margin-top: 100;
 }
 #body div.content div ul li h4 {
-	font-family: 'nixie_oneregular';
-	font-size: 18px;
-	font-weight: normal;
+	font-family: 'inherit';
+	font-size: 20px;
+	font-weight: bolder;
 	margin: 0;
 	padding: 12px 0 0;
 	text-align: center;
@@ -366,13 +366,13 @@ p a:hover {
 	width: 500px;
 }
 #footer div span {
-	color: #0014a8;
+	color: #315f52;
 	display: block;
 	font-size: 26px;
 	line-height: 24px;
 }
 #footer div p {
-	color: #0014a8;
+	color: #315f52;
 	font-size: 12px;
 	line-height: 30px;
 }
