@@ -1,0 +1,21 @@
+{% extends 'parent.html' %}
+
+{% block body %}
+<div class="content">
+			<div>
+                <img style="width:640px" src="{{url_for('static',filename=flower_image)}}">
+				<br />
+				<p>
+					{{ flower_info }}
+				</p>
+
+				<br />
+
+				<h3>Price: {{ flower_price }} </h3>
+
+				<br />
+				<input type="button" value="Buy Now" />
+
+			</div>
+</div>
+{% endblock %}
