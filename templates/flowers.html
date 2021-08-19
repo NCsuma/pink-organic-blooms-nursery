@@ -4,7 +4,7 @@
 <div class="content">
 			<div>
 				<ul class="section">
-					{%- for item in flowersgroup1 %}
+					{%- for item in first_group_items %}
        				<li>
 						<a href="/flowerdetails/{{item.id}}"><img src="{{url_for('static',filename =item.image_name)}}"></a>
 						<h4>{{item.name}}</h4>
@@ -12,7 +12,7 @@
 					{% endfor %}
 				</ul>
 				<ul class="section">
-					{%- for item in flowersgroup2 %}
+					{%- for item in second_group_items %}
        				<li>
 						<a href="/flowerdetails/{{item.id}}"><img src="{{url_for('static',filename =item.image_name)}}"></a>
 						<h4>{{item.name}}</h4>
